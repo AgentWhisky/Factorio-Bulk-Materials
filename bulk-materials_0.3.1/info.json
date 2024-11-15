@@ -1,6 +1,6 @@
 {
   "name": "bulk-materials",
-  "version": "0.2.3",
+  "version": "0.3.1",
   "title": "Bulk Materials",
   "author": "Agentwhisky",
   "description": "Allows configuration of item production multipliers for gears, sticks, engines, green, red, and blue circuits.",
