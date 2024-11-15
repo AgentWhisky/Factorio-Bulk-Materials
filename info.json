@@ -1,0 +1,9 @@
+{
+  "name": "bulk-materials",
+  "version": "0.2.3",
+  "title": "Bulk Materials",
+  "author": "Agentwhisky",
+  "description": "Allows configuration of item production multipliers for gears, sticks, green, red, and blue circuits.",
+  "factorio_version": "2.0",
+  "dependencies": []
+}

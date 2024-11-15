@@ -1,0 +1,17 @@
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 26. 10. 2024
+  Features:
+    - Added multipler for concrete. Base multiplier of x4
+
+  Changes:
+    - Updated default multipliers for gears and sticks to be x4
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 24. 10. 2024
+  Features:
+    - Configuration of multipliers for gears, sticks, green, red, and blue circuits
+
+  Info:
+    - Updated version of 'Bulk Gears' mod for 2.0
