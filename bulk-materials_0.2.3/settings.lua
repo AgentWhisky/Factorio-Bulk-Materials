@@ -65,7 +65,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "h"
 }, {
     type = "int-setting",
-    name = "artificial-jellynut-soi-output-multiplier",
+    name = "artificial-jellynut-soil-output-multiplier",
     setting_type = "startup",
     default_value = 4,
     minimum_value = 1,
@@ -75,7 +75,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     type = "int-setting",
     name = "quantum-processor-output-multiplier",
     setting_type = "startup",
-    default_value = 4,
+    default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
     order = "j"
@@ -146,7 +146,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "r"
 }, {
     type = "int-setting",
-    name = "artificial-jellynut-soi-speed-multiplier",
+    name = "artificial-jellynut-soil-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
