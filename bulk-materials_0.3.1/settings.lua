@@ -27,7 +27,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     type = "int-setting",
     name = "engine-unit-output-multiplier",
     setting_type = "startup",
-    default_value = 4,
+    default_value = 2,
     minimum_value = 1,
     maximum_value = 128,
     order = "d"
