@@ -57,12 +57,28 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "g"
 }, {
     type = "int-setting",
+    name = "low-density-structure-output-multiplier",
+    setting_type = "startup",
+    default_value = 2,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "h"
+}, {
+    type = "int-setting",
+    name = "flying-robot-frame-output-multiplier",
+    setting_type = "startup",
+    default_value = 2,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "i"
+}, {
+    type = "int-setting",
     name = "artificial-yumako-soil-output-multiplier",
     setting_type = "startup",
     default_value = 4,
     minimum_value = 1,
     maximum_value = 128,
-    order = "h"
+    order = "j"
 }, {
     type = "int-setting",
     name = "artificial-jellynut-soil-output-multiplier",
@@ -70,7 +86,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 4,
     minimum_value = 1,
     maximum_value = 128,
-    order = "i"
+    order = "k"
 }, {
     type = "int-setting",
     name = "quantum-processor-output-multiplier",
@@ -78,7 +94,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "j"
+    order = "l"
 }, --- SPEED MULTIPLIERS
 {
     type = "int-setting",
@@ -87,7 +103,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "k"
+    order = "za"
 }, {
     type = "int-setting",
     name = "iron-stick-speed-multiplier",
@@ -95,7 +111,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "l"
+    order = "zb"
 }, {
     type = "int-setting",
     name = "concrete-speed-multiplier",
@@ -103,7 +119,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "m"
+    order = "zc"
 }, {
     type = "int-setting",
     name = "engine-unit-speed-multiplier",
@@ -111,7 +127,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "n"
+    order = "zd"
 }, {
     type = "int-setting",
     name = "electronic-circuit-speed-multiplier",
@@ -119,7 +135,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "o"
+    order = "ze"
 }, {
     type = "int-setting",
     name = "advanced-circuit-speed-multiplier",
@@ -127,7 +143,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "p"
+    order = "zf"
 }, {
     type = "int-setting",
     name = "processing-unit-speed-multiplier",
@@ -135,7 +151,23 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "q"
+    order = "zg"
+}, {
+    type = "int-setting",
+    name = "low-density-structure-speed-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "zh"
+}, {
+    type = "int-setting",
+    name = "flying-robot-frame-speed-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "zi"
 }, {
     type = "int-setting",
     name = "artificial-yumako-soil-speed-multiplier",
@@ -143,7 +175,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "r"
+    order = "zj"
 }, {
     type = "int-setting",
     name = "artificial-jellynut-soil-speed-multiplier",
@@ -151,7 +183,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "s"
+    order = "zk"
 }, {
     type = "int-setting",
     name = "quantum-processor-speed-multiplier",
@@ -159,5 +191,5 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "t"
+    order = "zl"
 }})

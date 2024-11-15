@@ -1,14 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 15. 11. 2024
+  Features:
+    - Added multiplers for Low Density Structures. Base multiplier of x2
+    - Added multiplers for Flying Robot Frames. Base multiplier of x2
+
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 15. 11. 2024
   Features:
-    - Added multipler for Engine Units. Base multiplier of x2
-    - Added multipler for Artificial yumako soil. Base multiplier of x4
-    - Added multipler for Artificial jellynut soil. Base multiplier of x4
-    - Added multipler for Quantum Processors. Base multiplier of x1 (default)
+    - Added multiplers for Engine Units. Base multiplier of x2
+    - Added multiplers for Artificial yumako soil. Base multiplier of x4
+    - Added multiplers for Artificial jellynut soil. Base multiplier of x4
+    - Added multiplers for Quantum Processors. Base multiplier of x1 (default)
 
     - Added new recipe time multipliers for each item. Base multipler of x1 (default)
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 26. 10. 2024

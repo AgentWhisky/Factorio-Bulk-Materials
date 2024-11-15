@@ -18,7 +18,9 @@ local items = {
     ["processing-unit"] = {"processing-unit"},
     ["artificial-yumako-soil"] = {"artificial-yumako-soil"},
     ["artificial-jellynut-soil"] = {"artificial-jellynut-soil"},
-    ["quantum-processor"] = {"quantum-processor"}
+    ["quantum-processor"] = {"quantum-processor"},
+    ["low-density-structure"] = {"low-density-structure"},
+    ["flying-robot-frame"] = {"flying-robot-frame"}
 }
 
 --- Output and Speed Multiplier
