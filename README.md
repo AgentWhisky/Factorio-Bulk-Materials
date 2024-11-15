@@ -12,6 +12,8 @@
 | `Electronic Circuits (green)` | `16x` | `1x` |
 | `Advanced Circuits (red)` | `16x` | `1x` |
 | `Processing Units (blue)` | `16x` | `1x` |
+| `Low Density Structures` | `2x` | `1x` |
+| `Flying Robot Frames` | `2x` | `1x` |
 | `Artificial Soil` | `4x` | `1x` |
 | `Quantum Processors` | `1x` | `1x` |
 
