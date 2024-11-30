@@ -7,8 +7,10 @@
 | :-------- | :------- | :------- |
 | `Iron Gears` | `4x` | `1x` |
 | `Iron Sticks` | `4x` | `1x` |
+| `Steel Plate` | `2x` | `1x` |
 | `Concrete` | `4x` | `1x` |
 | `Engine Units` | `4x` | `1x` |
+| `Electric Engine Units` | `2x` | `1x` |
 | `Electronic Circuits (green)` | `16x` | `1x` |
 | `Advanced Circuits (red)` | `16x` | `1x` |
 | `Processing Units (blue)` | `16x` | `1x` |

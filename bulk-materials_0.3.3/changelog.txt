@@ -4,6 +4,7 @@ Date: 30. 11. 2024
   Features:
     - Added multiplers for Steel Plate. Base multiplier of x2
     - Added multiplers for Electric Engine Units. Base multiplier of x2
+    - Added Foundry recipes to multipliers.
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
