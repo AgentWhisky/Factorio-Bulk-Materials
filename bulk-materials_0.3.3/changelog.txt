@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 30. 11. 2024
+  Features:
+    - Added multiplers for Steel Plate. Base multiplier of x2
+    - Added multiplers for Electric Engine Units. Base multiplier of x2
+
+---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 15. 11. 2024
   Features:

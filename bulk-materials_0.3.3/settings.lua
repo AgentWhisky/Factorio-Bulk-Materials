@@ -17,12 +17,20 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "b"
 }, {
     type = "int-setting",
+    name = "steel-plate-output-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "c"
+}, {
+    type = "int-setting",
     name = "concrete-output-multiplier",
     setting_type = "startup",
     default_value = 4,
     minimum_value = 1,
     maximum_value = 128,
-    order = "c"
+    order = "d"
 }, {
     type = "int-setting",
     name = "engine-unit-output-multiplier",
@@ -30,7 +38,15 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 2,
     minimum_value = 1,
     maximum_value = 128,
-    order = "d"
+    order = "e"
+}, {
+    type = "int-setting",
+    name = "electric-engine-unit-output-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "f"
 }, {
     type = "int-setting",
     name = "electronic-circuit-output-multiplier",
@@ -38,7 +54,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 16,
     minimum_value = 1,
     maximum_value = 128,
-    order = "e"
+    order = "g"
 }, {
     type = "int-setting",
     name = "advanced-circuit-output-multiplier",
@@ -46,7 +62,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 16,
     minimum_value = 1,
     maximum_value = 128,
-    order = "f"
+    order = "h"
 }, {
     type = "int-setting",
     name = "processing-unit-output-multiplier",
@@ -54,7 +70,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 16,
     minimum_value = 1,
     maximum_value = 128,
-    order = "g"
+    order = "i"
 }, {
     type = "int-setting",
     name = "low-density-structure-output-multiplier",
@@ -62,7 +78,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 2,
     minimum_value = 1,
     maximum_value = 128,
-    order = "h"
+    order = "j"
 }, {
     type = "int-setting",
     name = "flying-robot-frame-output-multiplier",
@@ -70,7 +86,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 2,
     minimum_value = 1,
     maximum_value = 128,
-    order = "i"
+    order = "k"
 }, {
     type = "int-setting",
     name = "artificial-yumako-soil-output-multiplier",
@@ -78,7 +94,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 4,
     minimum_value = 1,
     maximum_value = 128,
-    order = "j"
+    order = "l"
 }, {
     type = "int-setting",
     name = "artificial-jellynut-soil-output-multiplier",
@@ -86,7 +102,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 4,
     minimum_value = 1,
     maximum_value = 128,
-    order = "k"
+    order = "m"
 }, {
     type = "int-setting",
     name = "quantum-processor-output-multiplier",
@@ -94,7 +110,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
-    order = "l"
+    order = "n"
 }, --- SPEED MULTIPLIERS
 {
     type = "int-setting",
@@ -114,7 +130,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zb"
 }, {
     type = "int-setting",
-    name = "concrete-speed-multiplier",
+    name = "steel-plate-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -122,7 +138,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zc"
 }, {
     type = "int-setting",
-    name = "engine-unit-speed-multiplier",
+    name = "concrete-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -130,7 +146,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zd"
 }, {
     type = "int-setting",
-    name = "electronic-circuit-speed-multiplier",
+    name = "engine-unit-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -138,7 +154,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "ze"
 }, {
     type = "int-setting",
-    name = "advanced-circuit-speed-multiplier",
+    name = "electric-engine-unit-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -146,7 +162,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zf"
 }, {
     type = "int-setting",
-    name = "processing-unit-speed-multiplier",
+    name = "electronic-circuit-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -154,7 +170,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zg"
 }, {
     type = "int-setting",
-    name = "low-density-structure-speed-multiplier",
+    name = "advanced-circuit-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -162,7 +178,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zh"
 }, {
     type = "int-setting",
-    name = "flying-robot-frame-speed-multiplier",
+    name = "processing-unit-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -170,7 +186,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zi"
 }, {
     type = "int-setting",
-    name = "artificial-yumako-soil-speed-multiplier",
+    name = "low-density-structure-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -178,7 +194,7 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zj"
 }, {
     type = "int-setting",
-    name = "artificial-jellynut-soil-speed-multiplier",
+    name = "flying-robot-frame-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
@@ -186,10 +202,26 @@ data:extend({ --- OUTPUT MULTIPLIERS
     order = "zk"
 }, {
     type = "int-setting",
-    name = "quantum-processor-speed-multiplier",
+    name = "artificial-yumako-soil-speed-multiplier",
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
     maximum_value = 128,
     order = "zl"
+}, {
+    type = "int-setting",
+    name = "artificial-jellynut-soil-speed-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "zm"
+}, {
+    type = "int-setting",
+    name = "quantum-processor-speed-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "zn"
 }})
