@@ -111,6 +111,14 @@ data:extend({ --- OUTPUT MULTIPLIERS
     minimum_value = 1,
     maximum_value = 128,
     order = "n"
+}, {
+    type = "int-setting",
+    name = "sulfur-output-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "o"
 }, --- SPEED MULTIPLIERS
 {
     type = "int-setting",
@@ -224,4 +232,12 @@ data:extend({ --- OUTPUT MULTIPLIERS
     minimum_value = 1,
     maximum_value = 128,
     order = "zn"
+}, {
+    type = "int-setting",
+    name = "sulfur-speed-multiplier",
+    setting_type = "startup",
+    default_value = 1,
+    minimum_value = 1,
+    maximum_value = 128,
+    order = "zo"
 }})

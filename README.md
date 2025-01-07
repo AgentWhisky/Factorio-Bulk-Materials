@@ -18,6 +18,7 @@
 | `Flying Robot Frames` | `2x` | `1x` |
 | `Artificial Soil` | `4x` | `1x` |
 | `Quantum Processors` | `1x` | `1x` |
+| `Sulfur` | `1x` | `1x` |
 
 - You can set the multipliers from 1x(base) to 128x.
 - Production and Speed multipliers are separate so you can choose to modify both or neither, depending on your needs.

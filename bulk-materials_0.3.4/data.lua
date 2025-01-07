@@ -45,7 +45,8 @@ local base_items = {
     ["artificial-yumako-soil"] = {"artificial-yumako-soil"},
     ["artificial-jellynut-soil"] = {"artificial-jellynut-soil"},
     ["quantum-processor"] = {"quantum-processor"},
-    ["low-density-structure"] = {"low-density-structure"}
+    ["low-density-structure"] = {"low-density-structure"},
+    ["sulfur"] = {"sulfur"}
 }
 
 local foundry_items = {
