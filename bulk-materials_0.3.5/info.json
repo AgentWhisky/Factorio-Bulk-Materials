@@ -1,6 +1,6 @@
 {
   "name": "bulk-materials",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "title": "Bulk Materials",
   "author": "Agentwhisky",
   "description": "Adds item production and speed multipliers for certain items. These include [gears, sticks, steel, concrete, engines, artificial soil, quantum processors] and [red, green, and blue circuits].",

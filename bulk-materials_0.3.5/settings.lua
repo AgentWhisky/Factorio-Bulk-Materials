@@ -1,4 +1,10 @@
-data:extend({ --- OUTPUT MULTIPLIERS
+data:extend({{
+    type = "bool-setting",
+    name = "enable-normalized-rocket-weight",
+    setting_type = "startup",
+    default_value = false
+}, 
+--- OUTPUT MULTIPLIERS
 {
     type = "int-setting",
     name = "iron-gear-wheel-output-multiplier",
