@@ -23,3 +23,5 @@
 - You can set the multipliers from 1x(base) to 128x.
 - Production and Speed multipliers are separate so you can choose to modify both or neither, depending on your needs.
 - Speed multipliers are all 1x by default
+- Default multipliers are personal preferences and are in no way balanced
+- A toggle is available to utilize the vanilla Space Age item weight calculation instead of the weight calculated with active multipliers

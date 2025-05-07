@@ -14,7 +14,9 @@ local base_items = {
     ["artificial-jellynut-soil"] = {"artificial-jellynut-soil"},
     ["quantum-processor"] = {"quantum-processor"},
     ["low-density-structure"] = {"low-density-structure"},
-    ["sulfur"] = {"sulfur"}
+    ["sulfur"] = {"sulfur"},
+    ["flying-robot-frame"] = {"flying-robot-frame"},
+
 }
 
 local foundry_items = {
@@ -39,7 +41,8 @@ local default_weight = {
     ["artificial-jellynut-soil"] = 14750,
     ["quantum-processor"] = 5000,
     ["low-density-structure"] = 5000,
-    ["sulfur"] = 1000
+    ["sulfur"] = 1000,
+    ["flying-robot-frame"] = 150
 }
 
 --- Getting individual settings
