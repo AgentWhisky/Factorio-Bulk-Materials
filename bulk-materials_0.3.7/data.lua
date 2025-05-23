@@ -71,10 +71,11 @@ function update_recipes(items)
                 end
 
                 -- Update Energy Required
-                if not recipe.energy_required then
-                    recipe.energy_required = 0.5 -- Set default if does not exist
-                end
-                recipe.energy_required = (recipe.energy_required / get_speed_multiplier(item))
+                local base_energy = recipe.energy_required or 0.5
+                local multiplier = get_speed_multiplier(item) or 1
+
+                multiplier = math.min(multiplier, base_energy / 0.002)
+                recipe.energy_required = math.max(0.02, base_energy / multiplier)
             end
         end
 

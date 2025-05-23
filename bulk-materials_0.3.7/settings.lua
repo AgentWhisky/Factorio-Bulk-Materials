@@ -132,7 +132,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "za"
 }, {
     type = "int-setting",
@@ -140,7 +140,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zb"
 }, {
     type = "int-setting",
@@ -148,7 +148,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zc"
 }, {
     type = "int-setting",
@@ -156,7 +156,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zd"
 }, {
     type = "int-setting",
@@ -164,7 +164,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "ze"
 }, {
     type = "int-setting",
@@ -172,7 +172,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zf"
 }, {
     type = "int-setting",
@@ -180,7 +180,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zg"
 }, {
     type = "int-setting",
@@ -188,7 +188,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zh"
 }, {
     type = "int-setting",
@@ -196,7 +196,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zi"
 }, {
     type = "int-setting",
@@ -204,7 +204,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zj"
 }, {
     type = "int-setting",
@@ -212,7 +212,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zk"
 }, {
     type = "int-setting",
@@ -220,7 +220,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zl"
 }, {
     type = "int-setting",
@@ -228,7 +228,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zm"
 }, {
     type = "int-setting",
@@ -236,7 +236,7 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zn"
 }, {
     type = "int-setting",
@@ -244,6 +244,6 @@ data:extend({{
     setting_type = "startup",
     default_value = 1,
     minimum_value = 1,
-    maximum_value = 128,
+    maximum_value = 25,
     order = "zo"
 }})

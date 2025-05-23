@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 6. 5. 2025
+  Bugfixes:
+    - Fixed case where crafting speed results in 'energy_required' being less than 0.001, causing an error
+
+  Changes:
+    - Updated maximum speed multipler to be 25x, a rough maximum given a minimum 'energy_required' of 0.02
+---------------------------------------------------------------------------------------------------
 Version: 0.3.6
 Date: 6. 5. 2025
   Bugfixes:
